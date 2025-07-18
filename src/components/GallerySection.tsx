@@ -38,6 +38,10 @@ const GallerySection = () => {
     {
       src: "/lovable-uploads/e432d3ec-89c4-4e73-896c-45faac7fa6c9.png",
       alt: "UNDERSEA WALK boat - Professional boat maintenance"
+    },
+    {
+      src: "/lovable-uploads/c0525b00-ef15-4d73-b1c5-19b0abd27704.png",
+      alt: "White sport fishing boat with outriggers in Mauritius waters"
     }
   ];
 
