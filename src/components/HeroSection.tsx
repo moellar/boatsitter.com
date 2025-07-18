@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-marina.jpg";
+import boatsitterLogo from "/lovable-uploads/40d62968-1772-4989-9f40-f45c232f3798.png";
 import { MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
@@ -19,7 +20,16 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <h1 className="font-poppins text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        {/* Logo */}
+        <div className="mb-8">
+          <img 
+            src={boatsitterLogo} 
+            alt="The Boatsitter - Boat Care Service" 
+            className="h-32 md:h-40 mx-auto mb-4"
+          />
+        </div>
+        
+        <h1 className="font-poppins text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Your One-Stop Shop for All{" "}
           <span className="text-primary-light">Boat Services</span>{" "}
           in Mauritius

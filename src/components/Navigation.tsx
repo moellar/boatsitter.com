@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import boatsitterLogo from "/lovable-uploads/40d62968-1772-4989-9f40-f45c232f3798.png";
 import { MessageCircle, Menu, X } from "lucide-react";
 
 const Navigation = () => {
@@ -42,8 +43,15 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="font-poppins text-xl font-bold">
-            <span className={`transition-colors ${isScrolled ? "text-primary" : "text-white"}`}>
+          <div className="flex items-center">
+            <img 
+              src={boatsitterLogo} 
+              alt="The Boatsitter Logo" 
+              className="h-10 md:h-12 mr-3"
+            />
+            <span className={`font-poppins text-lg font-bold transition-colors ${
+              isScrolled ? "text-primary" : "text-white"
+            }`}>
               Boat Sitter Mauritius
             </span>
           </div>

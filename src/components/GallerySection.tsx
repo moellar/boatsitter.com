@@ -5,39 +5,39 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  // Placeholder images for the gallery - these represent boat services
+  // Real boat images from Boat Sitter Mauritius
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
-      alt: "Luxury yacht maintenance"
+      src: "/lovable-uploads/433a1cd9-9ff8-44f6-be6a-daa31909b425.png",
+      alt: "SEABOB boat - Professional marine service"
     },
     {
-      src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80", 
-      alt: "Boat storage facility"
+      src: "/lovable-uploads/e4f3f8a7-4058-4ade-9ba5-5a184ac1b5a1.png", 
+      alt: "Red and white boat restoration project"
     },
     {
-      src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      alt: "Engine maintenance work"
+      src: "/lovable-uploads/c3c9bd1e-09e2-457e-827b-56871058ad45.png",
+      alt: "White speedboat on trailer - Marina services"
     },
     {
-      src: "https://images.unsplash.com/photo-1582576076471-7e17e6e0d907?w=800&q=80",
-      alt: "Boat renovation project"
+      src: "/lovable-uploads/7fbcc849-34ec-4a85-ac64-9263b2617660.png",
+      alt: "Blue boat in Grand Baie waters"
     },
     {
-      src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
-      alt: "Marina services"
+      src: "/lovable-uploads/73063f0e-8c10-4178-8812-3839ad3962a5.png",
+      alt: "Orange and white boat on trailer - Professional maintenance"
     },
     {
-      src: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=800&q=80",
-      alt: "Professional boat cleaning"
+      src: "/lovable-uploads/28895600-9069-4bee-82c3-665681e083de.png",
+      alt: "Marina scene with boats and salvage operations"
     },
     {
-      src: "https://images.unsplash.com/photo-1563396983906-b3795482a59a?w=800&q=80",
-      alt: "Electrical system installation"
+      src: "/lovable-uploads/43a9afce-739f-4e8d-81f7-c71e3623854a.png",
+      alt: "Small fishing boat - Local marine services"
     },
     {
-      src: "https://images.unsplash.com/photo-1573160103600-b13a15c2cec4?w=800&q=80",
-      alt: "Fiberglass repair work"
+      src: "/lovable-uploads/e432d3ec-89c4-4e73-896c-45faac7fa6c9.png",
+      alt: "UNDERSEA WALK boat - Professional boat maintenance"
     }
   ];
 
